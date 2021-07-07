@@ -8,9 +8,9 @@ pkg install curl -y
 pkg install proot -y
 pkg install tar -y
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Void/manjaro.sh | bash
-rm -rf void-installer-iso.sh
+rm -rf manjaro-installer-iso.sh
 chmod +x *
-./start-void.sh
+./start-manjaro.sh
 apt update -y
 apt upgrade -y
 apt install sudo -y
