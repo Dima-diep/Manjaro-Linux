@@ -8,7 +8,6 @@ pkg install curl -y
 pkg install proot -y
 pkg install tar -y
 curl https://raw.githubusercontent.com/AndronixApp/AndronixOrigin/master/Installer/Void/manjaro.sh | bash
-rm -rf manjaro-installer-iso.sh
 chmod +x *
 ./start-manjaro.sh
 apt update -y
@@ -25,3 +24,4 @@ apt install pip -y
 apt install python-pip -y
 apt install python3-pip -y
 echo "Manjaro has been installed"
+rm -rf manjaro-installer.sh
