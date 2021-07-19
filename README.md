@@ -5,5 +5,5 @@ OS system = Termux
 installation:
 ```
 $ chmod +x *
-$ ./manjaro-linux-installer.sh
+$ bash manjaro-linux-installer.sh
 ```
